@@ -331,6 +331,8 @@ struct rr_input_mask {
 #define ARCH_SET_CPUID 0x1012
 #endif
 
+#define PR_CFI 100
+
 // New in the 4.15 kernel
 #ifndef MAP_SYNC
 #define MAP_SYNC  0x80000
